@@ -1,0 +1,290 @@
+﻿{
+   "CodeGenerationMode": 2,
+   "ContextClassName": "PROJECTSContext",
+   "ContextNamespace": null,
+   "FilterSchemas": false,
+   "IncludeConnectionString": true,
+   "ModelNamespace": null,
+   "OutputContextPath": null,
+   "OutputPath": "Models",
+   "PreserveCasingWithRegex": true,
+   "ProjectRootNamespace": "WebApplication1",
+   "Schemas": null,
+   "SelectedHandlebarsLanguage": 2,
+   "SelectedToBeGenerated": 0,
+   "T4TemplatePath": null,
+   "Tables": [
+      {
+         "Name": "[dbo].[_prisma_migrations]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Audit]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Company]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyContactsAggregateGroupBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyContactsCountAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyContactsMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyContactsMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyContactsSumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsAggregateGroupBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsAggregateResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsAvgAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsCountAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDealsSumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNoteConnection]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNoteDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesAggregateGroupBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesAggregateResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesAvgAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesCountAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanyNotesSumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[CompanySumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Contact]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[ContactNote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Deal]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealAggregateGroupBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsAggregateGroupBy]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsAvgAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsCountAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDealsSumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealStageDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DealSumAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[DeletedTaskComments]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Event]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventCategory]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventCategoryDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[EventDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Quote]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuoteDeleteResponse]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[QuoteItem]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[Task]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskAvgAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskComment]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskCommentsCountAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskCommentsMaxAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskCommentsMinAggregate]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[TaskStage]",
+         "ObjectType": 0
+      },
+      {
+         "Name": "[dbo].[User]",
+         "ObjectType": 0
+      }
+   ],
+   "UiHint": null,
+   "UncountableWords": null,
+   "UseAsyncStoredProcedureCalls": true,
+   "UseBoolPropertiesWithoutDefaultSql": false,
+   "UseDatabaseNames": true,
+   "UseDateOnlyTimeOnly": false,
+   "UseDbContextSplitting": false,
+   "UseDecimalDataAnnotationForSprocResult": true,
+   "UseFluentApiOnly": true,
+   "UseHandleBars": false,
+   "UseHierarchyId": false,
+   "UseInflector": true,
+   "UseLegacyPluralizer": false,
+   "UseManyToManyEntity": false,
+   "UseNoDefaultConstructor": false,
+   "UseNoNavigations": false,
+   "UseNoObjectFilter": false,
+   "UseNodaTime": false,
+   "UseNullableReferences": false,
+   "UsePrefixNavigationNaming": false,
+   "UseSchemaFolders": false,
+   "UseSchemaNamespaces": false,
+   "UseSpatial": false,
+   "UseT4": false
+}

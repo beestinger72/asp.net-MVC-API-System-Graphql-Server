@@ -1,0 +1,15 @@
+﻿using HotChocolate;
+using HotChocolate.Types;
+
+namespace WebApplication1.Models  // Replace with your namespace
+{
+  public class MyEntityType : ObjectType<MyEntity> // Replace with your entity type
+  {
+    protected override void Configure(ObjectTypeType<MyEntity> type)
+    {
+      type.Field(f => f.Id).Type<NonNullType<IntType>>(); // Define fields and their types
+      type.Field(f => f.Name).Type<StringType>();
+      // ... Add fields for other properties
+    }
+  }
+}

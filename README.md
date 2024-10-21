@@ -1,0 +1,2 @@
+# asp.net MVC API System Graphql Server
+ Small Demo API SYSTEM WRITEN IN ASP.NET CORE  .NET 7 REVERSEMAPPED GRAPHQL DB
